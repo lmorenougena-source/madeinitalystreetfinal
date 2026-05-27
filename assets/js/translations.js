@@ -68,6 +68,9 @@
       'tri.delivery.title': 'Livraison',
       'tri.delivery.desc': "On t'apporte les plats de la mama n'importe où.",
       'tri.delivery.cta': 'Voir les partenaires',
+      'tri.shop.title': 'Sur place',
+      'tri.shop.desc': "L'odeur du smash sur la plancha, l'huile d'olive qui chante, la pasta italienne en fond. Viens vivre l'expérience complète.",
+      'tri.shop.cta': 'Nous trouver',
 
       // Best-sellers
       'bs.eyebrow': 'Vos plats préférés',
@@ -75,6 +78,7 @@
       'bs.h2b': 'della casa',
       'bs.sub': 'Recettes signature, sauces maison, ingrédients italiens. Chaque bouchée est une carte postale de Naples.',
       'bs.add': 'Ajouter',
+      'bs.view': 'Découvrir',
       'bs.discoverAll': 'Découvrir toute la carte',
 
       // Badges
@@ -437,12 +441,16 @@
       'tri.delivery.title': 'Delivery',
       'tri.delivery.desc': 'We bring mama\'s dishes anywhere.',
       'tri.delivery.cta': 'See partners',
+      'tri.shop.title': 'Dine in',
+      'tri.shop.desc': 'The smash sizzling on the griddle, olive oil singing, Italian pasta in the background. Come live the full experience.',
+      'tri.shop.cta': 'Find us',
 
       'bs.eyebrow': 'Your favourite dishes',
       'bs.h2a': 'The must-haves',
       'bs.h2b': 'della casa',
       'bs.sub': 'Signature recipes, homemade sauces, Italian ingredients. Every bite is a postcard from Naples.',
       'bs.add': 'Add',
+      'bs.view': 'Discover',
       'bs.discoverAll': 'See the full menu',
 
       'badge.mama': "Mama's recipe",
@@ -786,12 +794,16 @@
       'tri.delivery.title': 'Reparto',
       'tri.delivery.desc': 'Te llevamos los platos de la mamma a cualquier sitio.',
       'tri.delivery.cta': 'Ver socios',
+      'tri.shop.title': 'En el local',
+      'tri.shop.desc': 'El olor del smash en la plancha, el aceite de oliva que canta, la pasta italiana de fondo. Ven a vivir la experiencia completa.',
+      'tri.shop.cta': 'Encuéntranos',
 
       'bs.eyebrow': 'Tus platos preferidos',
       'bs.h2a': 'Los imprescindibles',
       'bs.h2b': 'della casa',
       'bs.sub': 'Recetas de la casa, salsas caseras, ingredientes italianos. Cada bocado es una postal de Nápoles.',
       'bs.add': 'Añadir',
+      'bs.view': 'Descubrir',
       'bs.discoverAll': 'Descubrir toda la carta',
 
       'badge.mama': 'Receta de la mamma',
@@ -1135,12 +1147,16 @@
       'tri.delivery.title': 'Consegna',
       'tri.delivery.desc': 'Ti portiamo i piatti della mamma ovunque.',
       'tri.delivery.cta': 'Vedi i partner',
+      'tri.shop.title': 'In loco',
+      'tri.shop.desc': "Il profumo dello smash sulla piastra, l'olio d'oliva che canta, la pasta italiana in sottofondo. Vieni a vivere l'esperienza completa.",
+      'tri.shop.cta': 'Trovaci',
 
       'bs.eyebrow': 'I tuoi piatti preferiti',
       'bs.h2a': 'Gli imperdibili',
       'bs.h2b': 'della casa',
       'bs.sub': 'Ricette signature, salse fatte in casa, ingredienti italiani. Ogni morso è una cartolina da Napoli.',
       'bs.add': 'Aggiungi',
+      'bs.view': 'Scopri',
       'bs.discoverAll': 'Scopri tutto il menu',
 
       'badge.mama': 'Ricetta della mamma',
@@ -1484,12 +1500,16 @@
       'tri.delivery.title': 'Entrega',
       'tri.delivery.desc': 'Levamos os pratos da mamma a qualquer lugar.',
       'tri.delivery.cta': 'Ver parceiros',
+      'tri.shop.title': 'No local',
+      'tri.shop.desc': 'O cheiro do smash na chapa, o azeite que canta, a massa italiana ao fundo. Vem viver a experiência completa.',
+      'tri.shop.cta': 'Encontra-nos',
 
       'bs.eyebrow': 'Os teus pratos preferidos',
       'bs.h2a': 'Os imperdíveis',
       'bs.h2b': 'della casa',
       'bs.sub': 'Receitas signature, molhos caseiros, ingredientes italianos. Cada dentada é um postal de Nápoles.',
       'bs.add': 'Adicionar',
+      'bs.view': 'Descobrir',
       'bs.discoverAll': 'Descobrir todo o menu',
 
       'badge.mama': 'Receita da mamma',
@@ -1833,12 +1853,16 @@
       'tri.delivery.title': 'Lieferung',
       'tri.delivery.desc': 'Wir bringen Mammas Gerichte überall hin.',
       'tri.delivery.cta': 'Partner ansehen',
+      'tri.shop.title': 'Vor Ort',
+      'tri.shop.desc': 'Der Duft des Smash auf der Plancha, das singende Olivenöl, italienische Pasta im Hintergrund. Komm und erlebe das volle Erlebnis.',
+      'tri.shop.cta': 'Uns finden',
 
       'bs.eyebrow': 'Deine Lieblingsgerichte',
       'bs.h2a': 'Die Klassiker',
       'bs.h2b': 'della casa',
       'bs.sub': 'Signature-Rezepte, hausgemachte Saucen, italienische Zutaten. Jeder Bissen ist eine Postkarte aus Neapel.',
       'bs.add': 'Hinzufügen',
+      'bs.view': 'Entdecken',
       'bs.discoverAll': 'Ganze Karte entdecken',
 
       'badge.mama': 'Mammas Rezept',
