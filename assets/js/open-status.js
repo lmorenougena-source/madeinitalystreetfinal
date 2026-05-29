@@ -8,11 +8,10 @@
 (function () {
   'use strict';
 
-  // Horaires d'ouverture : 11:30-14:30 et 18:30-22:30, 7j/7
+  // Horaires d'ouverture : 09:00-02:00 (service continu passant minuit), 7j/7
   // Format : [[heureOuverture, heureFermeture], ...]
   var SERVICES = [
-    { open: '11:30', close: '14:30' },
-    { open: '18:30', close: '22:30' }
+    { open: '09:00', close: '02:00' }
   ];
 
   function toMin(hhmm) {
@@ -36,7 +35,10 @@
     for (var i = 0; i < SERVICES.length; i++) {
       var openMin  = toMin(SERVICES[i].open);
       var closeMin = toMin(SERVICES[i].close);
-      if (nowMin >= openMin && nowMin < closeMin) {
+      var overnight = closeMin <= openMin; // service passant minuit (ex. 09:00 -> 02:00)
+      var isNow = overnight ? (nowMin >= openMin || nowMin < closeMin)
+                            : (nowMin >= openMin && nowMin < closeMin);
+      if (isNow) {
         return { isOpen: true, closesAt: toHHMM(closeMin), opensAt: null, opensTomorrow: false };
       }
     }
